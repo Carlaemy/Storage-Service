@@ -1,0 +1,8 @@
+1,auto.png,705473
+8,grafico.jpg,96817
+11,00003.png,3335197
+12,bg.jpg,134107
+14,audio.jpg,6132
+15,audio.jpg,6132
+16,audio.jpg,6132
+19,audio.jpg,6132
