@@ -1,0 +1,22 @@
+Storage
+
+Install gorilla mux:
+
+   go get -u github.com/gorilla/mux
+
+Load the go server: 
+
+   go run main.go
+
+UI (Use Postman for UI):
+***Documents (Link repository -> https://www.getpostman.com/collections/f1a13d908d24a4996a12
+Create a file -> localhost:3000/create/file  (Headers -> Key: UploadFile, Value: Application/json) (Body -> Key: UploadFile)
+List all files -> localhost:3000/files
+Delete a file by ID -> localhost:3000/delete/file/ID
+List file by ID -> localhost:3000/file/ID
+
+***Users (Link repository -> https://www.getpostman.com/collections/92a01024575dc91d5ac2)
+List all users -> localhost:3000/users
+List user by ID -> localhost:3000/user/ID
+Delete user by ID -> localhost:3000/delete/ID
+Delete user by ID -> localhost:3000/delete/2
